@@ -13,7 +13,7 @@ logistic regression, dengan metrik waktu komputasi dan AUC.
 
 ## Ruang lingkup replikasi
 - Replikasi **parsial**: satu dataset (Covtype, 2 kelas), mode lokal.
-- Hasil artikel hanya berupa grafik, jadi perbandingan dengan artikel bersifat kualitatif.
+- Artikel hanya menyajikan waktu komputasi dalam grafik batang (tanpa angka) dan AUC secara naratif, sehingga perbandingan dengan artikel bersifat kualitatif.
 - Variasi dari artikel: pembanding **scikit-learn** menggantikan MOA.
 
 ## Data
@@ -53,6 +53,7 @@ penjadwalan; keunggulan Spark diharapkan muncul pada data lebih besar atau klast
 - `randomSplit` Spark dan `train_test_split` scikit-learn menghasilkan split berbeda.
 - `minInfoGain` dan `min_impurity_decrease` tidak persis setara.
 - `minInfoGain` 0,15 kemungkinan membuat pohon sangat dangkal (AUC DT rendah).
+- Artikel tidak menyebut rasio split, seed, cara membuat label 2 kelas, dan jumlah pengulangan; bagian ini adalah pilihan penulis replikasi.
 
 ## Isi repositori
 - `mahadata_spark_mllib.ipynb`: notebook eksperimen
