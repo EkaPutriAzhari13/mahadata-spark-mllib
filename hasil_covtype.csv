@@ -1,0 +1,7 @@
+dataset,tool,model,train_time_s,auc
+Covtype,Spark MLlib,DecisionTree,9.6,0.7471
+Covtype,Spark MLlib,SVM,62.79,0.8406
+Covtype,Spark MLlib,LogReg,12.46,0.8428
+Covtype,scikit-learn,DecisionTree,1.29,0.7464
+Covtype,scikit-learn,SVM,24.05,0.8425
+Covtype,scikit-learn,LogReg,4.61,0.843
