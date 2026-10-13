@@ -39,6 +39,7 @@ Waktu latih adalah rata-rata 3 kali jalan. AUC dihitung pada data uji.
 | Logistic Regression | 12,46 | 0,8428 | 4,61 | 0,8430 |
 
 ![Screenshot tabel hasil](hasil_covtype.png)
+![Grafik](grafik_covtype.png)
 
 Ringkasan: AUC kedua alat hampir sama (selisih maks. ~0,002). scikit-learn lebih
 cepat pada semua model karena Spark mode lokal di satu mesin menanggung overhead
