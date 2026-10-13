@@ -57,7 +57,8 @@ penjadwalan; keunggulan Spark diharapkan muncul pada data lebih besar atau klast
 ## Isi repositori
 - `mahadata_spark_mllib.ipynb`: notebook eksperimen
 - `hasil_covtype.csv`: tabel hasil
-- `hasil_covtype.png`: grafik hasil
+- `hasil_covtype.png`: tangkapan tabel hasil
+- `grafik_covtype.png`: grafik waktu latih dan AUC (sumbu AUC dimulai dari 0,70)
 - `requirements.txt`: daftar pustaka
 
 ## Cara menjalankan
